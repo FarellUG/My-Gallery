@@ -1,0 +1,115 @@
+*{    
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.profile {
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    margin: 30px auto;
+    padding: 10px 20 40px;
+    border-radius: 60px;
+}
+
+.profile:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.733);
+    transition: 0.3s;    
+    background-size: cover;
+}
+
+.profile .image img {
+    display:block;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 60px;
+    
+}
+
+.profile .image img:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.733);
+    transition: 0.3s;    
+    background-size: cover;
+    transform: scale(1.1, 1.1);
+}
+.data {
+    text-align: center;
+    font-size: 14px;
+}
+
+.name {
+    font-size: 24px;
+}
+
+.desc {
+    color: gray;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: rgb(214, 252, 255);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border-radius: 16px;
+}
+
+.box:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.733);
+    transition: 0.3s;     
+    background-size: cover;
+    background-color: rgb(138, 225, 231);
+    transform: scale(1.05, 1.05);
+}
+
+.gallery {
+    /* height: 500px; */
+    width: 40%;
+    margin: 10px auto;
+    min-width: 360px;
+    /* background-color: green; */
+}
+.gallery .row {
+    /* background-color: green; */
+    width: 100%;
+}
+.gallery img {
+    width: 100%;
+    border-radius: 20px;
+    /* background-color: green; */
+}
+
+.gallery .left {
+    margin-right : 10px; 
+    margin-bottom: 10px;
+}
+
+.gallery .flex-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.gallery .right {
+    /* margin: 10px; */
+}
+
+/* .gallery img:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.733);
+    transition: 0.3s;     
+    background-size: cover;
+    transform: scale(1.05, 1.05);
+} */
+
+.footer {
+    list-style-type: none;
+    display: block;
+    margin: 0px 15px 0px;
+    padding: 30px 20px 30px;
+    width: auto;
+    text-align: center;
+    color: black;
+  }
